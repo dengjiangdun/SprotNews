@@ -1,4 +1,4 @@
-package com.johndon.cmcc.util.sportnews;
+package com.johndon.cmcc.util.stocknews;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

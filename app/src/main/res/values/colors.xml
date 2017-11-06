@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <!--<color name="colorPrimary">#3F51B5</color> sport
+    <color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimary">#848dbf</color>
+    <color name="colorPrimaryDark">#5a6294</color>
+   <!-- <color name="colorPrimary">#414e59</color> finance
+    <color name="colorPrimaryDark">#393c4d</color>-->
     <color name="colorAccent">#FF4081</color>
+    <color name="colorFab">#ffffeb3b</color>
 </resources>
