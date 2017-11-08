@@ -1,4 +1,4 @@
-package com.johndon.cmcc.util.stocknews;
+package com.johndon.cmcc.util.childnews;
 
 import android.content.Context;
 import android.content.Intent;
@@ -28,12 +28,15 @@ public class MainActivity extends AppCompatActivity implements NewsAdapter.NewsI
     private NewsAdapter mNewsAdater;
     private boolean isRefresh = true;
     private CMCCProgressDialog cmccDialog;
-    private static final String URL_GET_NEWS = "https://way.jd.com/jisuapi/get?channel=股票&num=10&start=%d&appkey=efe1e02d6bd91de63c8a07d1666910d3";
+    private static final String URL_GET_NEWS = "https://way.jd.com/jisuapi/get?channel=育儿&num=10&start=%d&appkey=efe1e02d6bd91de63c8a07d1666910d3";
    //数据简介：头条、新闻、财经、体育、娱乐、军事、教育、科技、NBA、股票、星座、女性、健康、育儿等频道热门新闻
 
     //体育 sprotnews sport_icon
     //股票 stocknews stock_icon
     //财经 financenews finance_icon
+    //NBA  nbanews nba_icon
+    //女性 womennews women_icon
+    //育儿 childnews child_icon
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

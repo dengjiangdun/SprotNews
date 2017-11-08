@@ -104,7 +104,7 @@
       public static <fields>;
 }
 
--keep public class  com.johndon.cmcc.util.stocknews.** {
+-keep public class  com.johndon.cmcc.util.childnews.** {
     public void set*(***);
     public *** get*();
     public <fields>;

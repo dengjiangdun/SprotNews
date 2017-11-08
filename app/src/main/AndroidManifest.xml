@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.johndon.cmcc.util.stocknews">
+    package="com.johndon.cmcc.util.childnews">
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/stock_icon"
+        android:icon="@drawable/child_icon"
         android:label="@string/app_title"
         xmlns:tools="http://schemas.android.com/tools"
         tools:replace="android:label"
-        android:roundIcon="@drawable/stock_icon"
+        android:roundIcon="@drawable/child_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.johndon.cmcc.util.stocknews.MainActivity"
+        <activity android:name="com.johndon.cmcc.util.childnews.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.johndon.cmcc.util.stocknews.DetailActivity"
+        <activity android:name="com.johndon.cmcc.util.childnews.DetailActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
     </application>

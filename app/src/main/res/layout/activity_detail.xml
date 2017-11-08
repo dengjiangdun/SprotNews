@@ -39,6 +39,7 @@
        <LinearLayout
            android:layout_width="match_parent"
            android:layout_height="match_parent"
+           android:background="@color/white"
            android:orientation="vertical">
             <WebView
                 android:id="@+id/wv_details"
@@ -55,6 +56,14 @@
                android:layout_height="20dp"
                android:gravity="center|right"
                android:id="@+id/tv_src"
+               android:layout_margin="10dp"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="20dp"
+               android:gravity="center|right"
+               android:id="@+id/tv_source"
+               android:textColor="@color/read_source_color"
+               android:text="@string/read_source"
                android:layout_margin="10dp"/>
        </LinearLayout>
     </android.support.v4.widget.NestedScrollView>

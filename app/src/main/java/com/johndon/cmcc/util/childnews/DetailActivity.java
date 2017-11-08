@@ -1,6 +1,7 @@
-package com.johndon.cmcc.util.stocknews;
+package com.johndon.cmcc.util.childnews;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.CollapsingToolbarLayout;
@@ -49,6 +50,18 @@ public class DetailActivity extends AppCompatActivity {
                 if(intent.resolveActivity(getPackageManager()) != null) {
                     startActivity(Intent.createChooser(intent,"分享到"));
                 }
+            }
+        });
+
+        findViewById(R.id.tv_source).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setAction("android.intent.action.VIEW");
+                Uri content_url = Uri.parse(getIntent().getStringExtra("weburl"));
+                intent.setData(content_url);
+                startActivity(intent);
+
             }
         });
     }

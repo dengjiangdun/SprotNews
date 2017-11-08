@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">股票新闻</string>
-    <string name="app_title">股票新闻</string>
+   <!-- <string name="app_name">NBA新闻</string>
+    <string name="app_title">NBA新闻</string>-->
+
+    <string name="app_name">育儿等频道</string>
+    <string name="app_title">育儿等频道</string>
+    <string name="read_source">阅读原文</string>
 </resources>

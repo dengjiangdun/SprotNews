@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.johndon.cmcc.util.stocknews.MainActivity">
+    tools:context="com.johndon.cmcc.util.childnews.MainActivity">
     <include layout="@layout/top_layout"
         android:id="@+id/ll_top"/>
     <com.androidkun.PullToRefreshRecyclerView

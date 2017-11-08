@@ -1,4 +1,4 @@
-package com.johndon.cmcc.util.stocknews;
+package com.johndon.cmcc.util.childnews;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

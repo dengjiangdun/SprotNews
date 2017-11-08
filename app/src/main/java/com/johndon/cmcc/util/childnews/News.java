@@ -1,4 +1,4 @@
-package com.johndon.cmcc.util.stocknews;
+package com.johndon.cmcc.util.childnews;
 
 /**
  * Created by root on 11/2/17.
